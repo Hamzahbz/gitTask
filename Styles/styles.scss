@@ -205,11 +205,6 @@ $fixedsize:bold;//will set all choosen text to bold
 }
 .link4{
     @include createButton();
-    &:hover{
-        background-color: $secondary-color;
-        border: $primary-color solid;
-        color: whitesmoke;
-    }
 }
 .imageTitle5{
     @include titleposition();
