@@ -1,0 +1,335 @@
+body {
+  font-weight: bold;
+}
+body .BacktoTop {
+  color: coral;
+  font-family: "Tahoma";
+  -webkit-text-decoration: underline brown 2px;
+          text-decoration: underline brown 2px;
+}
+body .BacktoTop:hover {
+  color: brown;
+  -webkit-text-decoration: underline coral 2px;
+          text-decoration: underline coral 2px;
+}
+body .Sign-Up {
+  font-weight: bold;
+  background-color: coral;
+  padding: 5px;
+  border: brown solid;
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 1200px;
+  margin-top: -350px;
+}
+body .Sign-Up:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}
+body .saveBtn {
+  font-weight: bold;
+  background-color: coral;
+  padding: 5px;
+  border: brown solid;
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 1280px;
+  margin-top: -350px;
+}
+body .saveBtn:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}
+body .Header-pg2 {
+  background-color: whitesmoke;
+  font-family: "Tahoma";
+}
+body .Header-pg2 .GoHome {
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+  font-size: 50px;
+  font-weight: bold;
+}
+body .Header-pg2 .GoHome:hover {
+  color: coral;
+}
+body .Header-pg2 .GoHome .background3 {
+  position: relative;
+  margin-bottom: -500px;
+}
+body .Header-pg2 .Head {
+  font-weight: bolder;
+  color: brown;
+  font-style: oblique;
+  font-size: 50px;
+  -webkit-text-decoration: underline coral;
+          text-decoration: underline coral;
+  position: relative;
+  margin-left: 35%;
+  margin-top: -250px;
+}
+body .Header-pg2 .Head .Subhead {
+  margin-left: -2%;
+}
+body .Header-pg2 .Page2 {
+  position: relative;
+  margin-left: 35px;
+  text-decoration: underline;
+}
+body .Main-pg2 {
+  background-color: whitesmoke;
+  font-family: "Tahoma";
+}
+body .Main-pg2 .Recipe4 {
+  color: coral;
+  -webkit-text-decoration: underline brown;
+          text-decoration: underline brown;
+  font-style: italic;
+  position: relative;
+  font-size: 30px;
+  margin-left: 40%;
+}
+body .Main-pg2 .info4 {
+  position: relative;
+  display: none;
+  margin-left: 100px;
+  font-family: "Tahoma";
+}
+body .Main-pg2 .unicorn-cake1 {
+  position: relative;
+  margin-left: 400px;
+}
+body .Main-pg2 .unicorn-cake1 figcaption {
+  font-size: 20px;
+}
+body .Main-pg2 .savedA1 {
+  font-weight: bold;
+  background-color: coral;
+  padding: 5px;
+  border: brown solid;
+  border-radius: 5px;
+}
+body .Main-pg2 .savedA1:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}
+body .Main-pg2 .ingrediants4 {
+  position: relative;
+  margin-left: 500px;
+}
+body .Main-pg2 .ingrediants4 h3 {
+  text-decoration: underline;
+  margin-left: 100px;
+}
+body .Main-pg2 .unicorn-cake2 {
+  position: relative;
+  margin-left: 400px;
+}
+body .Main-pg2 .savedA2 {
+  font-weight: bold;
+  background-color: coral;
+  padding: 5px;
+  border: brown solid;
+  border-radius: 5px;
+}
+body .Main-pg2 .savedA2:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}
+body .Main-pg2 .instructions4 {
+  position: relative;
+  margin-left: 200px;
+}
+body .Main-pg2 .instructions4 h2 {
+  text-decoration: underline;
+}
+body .Main-pg2 hr {
+  position: relative;
+  top: 20px;
+  border: none;
+  height: 12px;
+  background: grey;
+  margin-bottom: 20px;
+}
+body .Main-pg2 .Recipe5 {
+  color: coral;
+  -webkit-text-decoration: underline brown;
+          text-decoration: underline brown;
+  font-style: italic;
+  position: relative;
+  font-size: 30px;
+  margin-left: 40%;
+}
+body .Main-pg2 .info5 {
+  position: relative;
+  display: none;
+  margin-left: 360px;
+  font-family: "Tahoma";
+}
+body .Main-pg2 .devils-food-cake1 {
+  position: relative;
+  margin-left: 400px;
+}
+body .Main-pg2 .devils-food-cake1 figcaption {
+  font-size: 20px;
+}
+body .Main-pg2 .savedB1 {
+  font-weight: bold;
+  background-color: coral;
+  padding: 5px;
+  border: brown solid;
+  border-radius: 5px;
+}
+body .Main-pg2 .savedB1:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}
+body .Main-pg2 .ingrediants5 {
+  position: relative;
+  margin-left: 500px;
+}
+body .Main-pg2 .ingrediants5 h3 {
+  text-decoration: underline;
+  margin-left: 100px;
+}
+body .Main-pg2 .devils-food-cake2 {
+  position: relative;
+  margin-left: 400px;
+}
+body .Main-pg2 .savedB2 {
+  font-weight: bold;
+  background-color: coral;
+  padding: 5px;
+  border: brown solid;
+  border-radius: 5px;
+}
+body .Main-pg2 .instructions5 {
+  position: relative;
+  margin-left: 200px;
+}
+body .Main-pg2 .instructions5 h2 {
+  text-decoration: underline;
+}
+body .Main-pg2 hr {
+  position: relative;
+  top: 20px;
+  border: none;
+  height: 12px;
+  background: grey;
+  margin-bottom: 20px;
+}
+body .Main-pg2 .Recipe6 {
+  color: coral;
+  -webkit-text-decoration: underline brown;
+          text-decoration: underline brown;
+  font-style: italic;
+  position: relative;
+  font-size: 30px;
+  margin-left: 40%;
+}
+body .Main-pg2 .info6 {
+  position: relative;
+  display: none;
+  margin-left: 360px;
+  font-family: "Tahoma";
+}
+body .Main-pg2 .lamington-cheesecake1 {
+  position: relative;
+  margin-left: 400px;
+}
+body .Main-pg2 .lamington-cheesecake1 figcaption {
+  font-size: 20px;
+}
+body .Main-pg2 .savedC1 {
+  font-weight: bold;
+  background-color: coral;
+  padding: 5px;
+  border: brown solid;
+  border-radius: 5px;
+}
+body .Main-pg2 .savedC1:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}
+body .Main-pg2 .ingrediants6 {
+  position: relative;
+  margin-left: 500px;
+}
+body .Main-pg2 .ingrediants6 h3 {
+  text-decoration: underline;
+  margin-left: 100px;
+}
+body .Main-pg2 .lamington-cheesecake2 {
+  position: relative;
+  margin-left: 400px;
+}
+body .Main-pg2 .savedC2 {
+  font-weight: bold;
+  background-color: coral;
+  padding: 5px;
+  border: brown solid;
+  border-radius: 5px;
+}
+body .Main-pg2 .savedC2:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}
+body .Main-pg2 .instructions6 {
+  position: relative;
+  margin-left: 200px;
+}
+body .Main-pg2 .instructions6 h2 {
+  text-decoration: underline;
+}
+body hr {
+  position: relative;
+  top: 20px;
+  border: none;
+  height: 12px;
+  background: grey;
+  margin-bottom: 20px;
+}
+body .End-pg2 {
+  color: black;
+}
+body .End-pg2 hr {
+  position: relative;
+  top: 20px;
+  border: none;
+  height: 12px;
+  background: grey;
+  margin-bottom: 20px;
+}
+body .End-pg2 h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  color: coral;
+  -webkit-text-decoration: underline brown;
+          text-decoration: underline brown;
+  text-align: center;
+}
+body .End-pg2 .description {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-size: bold;
+}
+body .End-pg2 .links {
+  color: coral;
+  font-family: "Tahoma";
+  text-decoration: none;
+  display: inline;
+  position: relative;
+  margin-left: 680px;
+}
+body .End-pg2 .links:hover {
+  color: brown;
+}/*# sourceMappingURL=birthdaysandspecial.css.map */

@@ -1,0 +1,161 @@
+$primary-color:coral;
+$secondary-color:brown;
+$text-style:'Tahoma';
+$text-size:bold;
+
+@mixin homebutton{
+    background-color: whitesmoke;
+    color:black;
+    border:none;
+    font-size: 50px;
+    font-weight: $text-size;
+    &:hover{
+        color:$primary-color;
+    }
+}
+@mixin border{
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 12px;
+    background: grey;
+    margin-bottom: 20px;
+}  
+    
+body{
+    background-color: whitesmoke;
+    font-family: $text-style;
+    font-weight: $text-size;
+
+    .Header-pg4{
+
+.GoHome{
+    background-color: whitesmoke;
+    color:black;
+    border:none;
+    font-size: 50px;
+    font-weight: $text-size;
+    &:hover{
+        color:$primary-color;
+    }
+    .background5{
+        position: relative;
+        margin-bottom: -500px;
+    }
+}
+.Contact{
+    position: absolute;
+    border: solid;
+    border-radius: 2px;
+    
+    .contactHead{
+        position: relative;
+        margin-left: 100px;
+        border: solid;
+        padding-right: 30px;
+    }
+}
+
+.Head{
+    font-weight: bolder;
+    color:$secondary-color;
+    font-style:oblique;
+    font-size: 50px;
+    text-decoration:underline $primary-color;
+    position:relative;
+    margin-left: 35%;
+    margin-top: -350px;
+.Subhead{ 
+    margin-left: -2%;
+}
+}
+    }
+.formintro{
+    position: relative;
+    margin-left: 200px
+}
+hr{
+    @include border();
+}
+.Main-pg4{
+
+    h2{
+        position: absolute;
+        margin-left: 650px;
+        color:$primary-color;
+        text-decoration: underline $secondary-color;
+
+    }
+    .Form{
+        position: relative;
+        border-style: solid;
+        border-radius: 8px;
+        border-width: 7px;
+        margin: 50px 300px;
+        padding-bottom: 200px;
+        padding-top: 100px; 
+    .firstname{
+        position: relative;
+        margin-left: 180px;
+    }
+    .lastname{
+        position: absolute;
+        margin-left: 480px;
+        margin-top: -20px;
+    }
+    .bday{
+        position:relative;
+        margin-left: 300px;
+        margin-top: 30px
+    }
+    .gender{
+        position: absolute;
+        margin-left: 300px;
+    }
+    .email{
+        position: relative;
+        margin-left: 300px;
+        margin-top: 60px;
+    }
+    .password{
+        position: relative;
+        margin-left: 340px;
+        margin-top: 30px;
+    }
+}
+.submit{
+    position:absolute;
+    margin-left: 680px;
+    margin-top: -230px;
+    border:none;
+    border-radius: 5px;
+    background-color: coral;
+    font-weight: $text-size;
+    font-size: 17px;
+    &:hover{
+        background-color: $secondary-color;
+        border: $primary-color solid;
+        color: whitesmoke;
+    }
+}
+.reset{
+    position:absolute;
+    margin-left: 760px;
+    margin-top: -230px;
+    border:none;
+    border-radius: 5px;
+    background-color: coral;
+    font-weight: $text-size;
+    font-size: 17px;
+    &:hover{
+        background-color: $secondary-color;
+        border: $primary-color solid;
+        color: whitesmoke;
+    }
+}
+
+}
+
+
+}
+

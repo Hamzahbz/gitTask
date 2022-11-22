@@ -1,0 +1,354 @@
+.Body {
+  font-weight: bold;
+  background-color: whitesmoke;
+}
+.Body .BacktoTop {
+  color: coral;
+  font-family: "Tahoma";
+  -webkit-text-decoration: underline brown 2px;
+          text-decoration: underline brown 2px;
+}
+.Body .BacktoTop:hover {
+  color: brown;
+  -webkit-text-decoration: underline coral 2px;
+          text-decoration: underline coral 2px;
+}
+.Body .Sign-Up {
+  font-weight: bold;
+  background-color: coral;
+  padding: 5px;
+  border: brown solid;
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 1200px;
+  margin-top: -350px;
+}
+.Body .Sign-Up:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}
+.Body .saveBtn {
+  font-weight: bold;
+  background-color: coral;
+  padding: 5px;
+  border: brown solid;
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 1280px;
+  margin-top: -350px;
+}
+.Body .saveBtn:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}
+.Body .Header {
+  font-family: "Tahoma";
+}
+.Body .Header .home {
+  font-size: 50px;
+  font-weight: bold;
+}
+.Body .Header .background1 {
+  position: relative;
+  margin-bottom: -250px;
+}
+.Body .Header .Head {
+  font-weight: bolder;
+  color: coral;
+  font-style: oblique;
+  font-size: 50px;
+  -webkit-text-decoration: underline brown;
+          text-decoration: underline brown;
+  position: relative;
+  margin-left: 30%;
+}
+.Body .Header .Head .Subhead {
+  font-style: italic;
+  margin-left: 7%;
+}
+.Body .Header .Head .SignUp {
+  background-color: coral;
+}
+.Body .Header .Subtext {
+  color: coral;
+  position: relative;
+  margin-left: 27%;
+  font-size: large;
+}
+.Body .Header .HeadA {
+  color: coral;
+  -webkit-text-decoration: underline brown;
+          text-decoration: underline brown;
+}
+
+.Main .begin {
+  color: coral;
+  position: relative;
+  font-size: 40px;
+  margin-left: 600px;
+  -webkit-text-decoration: underline brown;
+          text-decoration: underline brown;
+}
+.Main .option1 {
+  color: coral;
+  -webkit-text-decoration: underline brown;
+          text-decoration: underline brown;
+  font-size: 40px;
+  position: relative;
+  margin-left: 40px;
+}
+.Main .imageTitle1 {
+  text-decoration: underline;
+  font-style: italic;
+  position: relative;
+  font-size: 30px;
+  margin-left: 40%;
+}
+.Main .image1 {
+  position: relative;
+  margin-left: 400px;
+}
+.Main .image1 figcaption {
+  font-size: 20px;
+}
+.Main .link1 {
+  font-weight: bold;
+  background-color: coral;
+  border-radius: 5px;
+  position: relative;
+}
+.Main .link1:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}
+.Main .link1 .likebtn1 {
+  background: transparent;
+  border: none;
+  font-size: 88px;
+  outline: none;
+  color: grey;
+}
+.Main .imageTitle2 {
+  text-decoration: underline;
+  font-style: italic;
+  position: relative;
+  font-size: 30px;
+  margin-left: 40%;
+}
+.Main .image2 {
+  position: relative;
+  margin-left: 400px;
+}
+.Main .image2 figcaption {
+  font-size: 20px;
+}
+.Main .link2 {
+  font-weight: bold;
+  background-color: coral;
+  border-radius: 5px;
+  position: relative;
+}
+.Main .link2:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}
+.Main .imageTitle3 {
+  text-decoration: underline;
+  font-style: italic;
+  position: relative;
+  font-size: 30px;
+  margin-left: 40%;
+}
+.Main .image3 {
+  position: relative;
+  margin-left: 400px;
+}
+.Main .image3 figcaption {
+  font-size: 20px;
+}
+.Main .link3 {
+  font-weight: bold;
+  background-color: coral;
+  border-radius: 5px;
+  position: relative;
+}
+.Main .link3:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}
+.Main .option2 {
+  color: coral;
+  -webkit-text-decoration: underline brown;
+          text-decoration: underline brown;
+  font-size: 40px;
+  position: relative;
+  margin-left: 40px;
+}
+.Main .imageTitle4 {
+  text-decoration: underline;
+  font-style: italic;
+  position: relative;
+  font-size: 30px;
+  margin-left: 40%;
+}
+.Main .imageTitle4:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}
+.Main .image4 {
+  position: relative;
+  margin-left: 400px;
+}
+.Main .image4 figcaption {
+  font-size: 20px;
+}
+.Main .link4 {
+  font-weight: bold;
+  background-color: coral;
+  border-radius: 5px;
+  position: relative;
+}
+.Main .link4:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}
+.Main .imageTitle5 {
+  text-decoration: underline;
+  font-style: italic;
+  position: relative;
+  font-size: 30px;
+  margin-left: 40%;
+}
+.Main .image5 {
+  position: relative;
+  margin-left: 400px;
+}
+.Main .image5 figcaption {
+  font-size: 20px;
+}
+.Main .link5 {
+  font-weight: bold;
+  background-color: coral;
+  border-radius: 5px;
+  position: relative;
+}
+.Main .link5:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}
+.Main .imageTitle6 {
+  text-decoration: underline;
+  font-style: italic;
+  position: relative;
+  font-size: 30px;
+  margin-left: 40%;
+}
+.Main .image6 {
+  position: relative;
+  margin-left: 400px;
+}
+.Main .image6 figcaption {
+  font-size: 20px;
+}
+.Main .link6 {
+  font-weight: bold;
+  background-color: coral;
+  border-radius: 5px;
+  position: relative;
+}
+.Main .link6:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}
+.Main .option3 {
+  color: coral;
+  -webkit-text-decoration: underline brown;
+          text-decoration: underline brown;
+  font-size: 40px;
+  position: relative;
+  margin-left: 40px;
+}
+.Main .imageTitle7 {
+  text-decoration: underline;
+  font-style: italic;
+  position: relative;
+  font-size: 30px;
+  margin-left: 40%;
+}
+.Main .image7 {
+  position: relative;
+  margin-left: 400px;
+}
+.Main .image7 figcaption {
+  font-size: 20px;
+}
+.Main .link7 {
+  font-weight: bold;
+  background-color: coral;
+  border-radius: 5px;
+  position: relative;
+}
+.Main .link7:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}
+.Main .imageTitle8 {
+  text-decoration: underline;
+  font-style: italic;
+  position: relative;
+  font-size: 30px;
+  margin-left: 40%;
+}
+.Main .image8 {
+  position: relative;
+  margin-left: 400px;
+}
+.Main .image8 figcaption {
+  font-size: 20px;
+}
+.Main .link8 {
+  font-weight: bold;
+  background-color: coral;
+  border-radius: 5px;
+  position: relative;
+}
+.Main .link8:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}
+.Main .imageTitle9 {
+  text-decoration: underline;
+  font-style: italic;
+  position: relative;
+  font-size: 30px;
+  margin-left: 40%;
+}
+.Main .image9 {
+  position: relative;
+  margin-left: 400px;
+}
+.Main .image9 figcaption {
+  font-size: 20px;
+}
+.Main .link9 {
+  font-weight: bold;
+  background-color: coral;
+  border-radius: 5px;
+  position: relative;
+}
+.Main .link9:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,320 @@
+$primary-color:coral;//Will be used as the primary colour in my webages
+$secondary-color:brown;//Will be used alongside the primary colour
+$primary-text:'Tahoma';//Will be used as the primary font-style
+$fixedsize:bold;//will set all choosen text to bold
+
+@mixin titleposition{//Will set the position of all image titles
+    color:$primary-color;
+    text-decoration:underline $secondary-color;
+    font-style: italic;
+    position: relative;
+    font-size: 30px;
+    margin-left: 40%;
+}
+@mixin optionposition{
+    color:$primary-color;
+    text-decoration: underline $secondary-color;
+    font-size:40px;
+    position: relative;
+    margin-left: 40px;
+}
+@mixin border{
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 12px;
+    background: grey;
+    margin-bottom: 20px;
+
+}  
+@mixin imageposition{
+    position:relative;
+    margin-left: 400px;
+    figcaption{
+        font-size:20px;
+    }
+}
+@mixin instruction-layout{
+    position: relative;
+    margin-left: 200px;
+    h2{
+        text-decoration: underline;
+    }
+}
+@mixin ingrediants-layout{
+    position:relative;
+    margin-left: 500px;
+    h3{
+        text-decoration: underline;
+        margin-left: 100px;
+    }
+}  
+@mixin homebutton{
+    background-color: whitesmoke;
+    color:black;
+    border:none;
+    font-size: 50px;
+    font-weight: $fixedsize;
+    &:hover{
+        color:$primary-color;
+    }
+}
+
+body{
+    font-weight: $fixedsize;
+    .BacktoTop{
+        color: $primary-color;
+        font-family: $primary-text;
+        text-decoration: underline $secondary-color 2px;
+        &:hover{
+            color: $secondary-color;
+            text-decoration: underline $primary-color 2px;
+        }
+    }
+    .Sign-Up{
+        font-weight: $fixedsize;
+        background-color: coral;
+        padding: 5px;
+        border: $secondary-color solid;
+        border-radius: 5px;
+        position:absolute;
+        margin-left: 1200px;
+        margin-top: -350px;
+        &:hover{
+            background-color: $secondary-color;
+            border: $primary-color solid;
+            color: whitesmoke;
+        }
+    }
+    .saveBtn{
+        font-weight: $fixedsize;
+        background-color: coral;
+        padding: 5px;
+        border: $secondary-color solid;
+        border-radius: 5px;
+        position: absolute;
+        margin-left: 1280px;
+        margin-top: -350px;
+        &:hover{
+            background-color: $secondary-color;
+            border: $primary-color solid;
+            color: whitesmoke;
+        }
+    }
+    
+.Header-pg3{
+    background-color: whitesmoke;
+    font-family: $primary-text;
+
+    .GoHome{
+        @include homebutton();
+        .background4{
+            position: relative;
+            margin-bottom: -500px;
+        }
+    }
+    .Head{
+        font-weight: bolder;
+        color:$secondary-color;
+        font-style:oblique;
+        font-size: 50px;
+        text-decoration:underline $primary-color;
+        position:relative;
+        margin-left: 35%;
+        margin-top: -250px;
+    .Subhead{ 
+        margin-left: -2%;
+    }
+}
+    .Page3{
+        position: relative;
+        margin-left: 35px;
+        text-decoration: underline;
+        }
+}
+.Main-pg3{
+    background-color: whitesmoke;
+    font-family: $primary-text;
+    .Recipe7{
+    @include titleposition();
+    }
+    .info7{
+        position:relative;
+        display: none;
+        margin-left: 100px;
+        font-family:$primary-text;
+    }
+    .jam-sqaures1{
+        @include imageposition();
+    }
+    .savedA1{
+        font-weight: $fixedsize;
+        background-color: coral;
+        padding: 5px;
+        border: $secondary-color solid;
+        border-radius: 5px;
+        &:hover{
+            background-color: $secondary-color;
+            border: $primary-color solid;
+            color: whitesmoke;
+        }
+
+    }    
+    .ingrediants7{
+        @include ingrediants-layout();
+    }
+    .jam-sqaures2{
+        position: relative;
+        margin-left: 400px;    
+    }
+    .savedA2{
+        font-weight: $fixedsize;
+        background-color: coral;
+        padding: 5px;
+        border: $secondary-color solid;
+        border-radius: 5px;
+        &:hover{
+            background-color: $secondary-color;
+            border: $primary-color solid;
+            color: whitesmoke;
+        }
+    }    
+    .instructions7{
+        @include instruction-layout();
+    }
+    hr{
+        @include border();
+    }
+    .Recipe8{
+        @include titleposition();
+    }  
+    .info8{
+        position:relative;
+        display: none;
+        margin-left: 360px;
+        font-family:$primary-text;    
+    }
+    .blueberry-cake1{
+        @include imageposition();   
+    }
+    .savedB1{
+        font-weight: $fixedsize;
+        background-color: coral;
+        padding: 5px;
+        border: $secondary-color solid;
+        border-radius: 5px;
+        &:hover{
+            background-color: $secondary-color;
+            border: $primary-color solid;
+            color: whitesmoke;
+        }
+    }   
+    .ingrediants8{
+        @include ingrediants-layout();   
+    }
+    .blueberry-cake2{
+        position:relative;
+        margin-left: 400px;
+    }
+    .savedB2{
+        font-weight: $fixedsize;
+        background-color: coral;
+        padding: 5px;
+        border: $secondary-color solid;
+        border-radius: 5px;
+        &:hover{
+            background-color: $secondary-color;
+            border: $primary-color solid;
+            color: whitesmoke;
+        }
+    }    
+    .instructions8{
+        @include instruction-layout();
+    }
+    hr{
+    @include border();
+    }
+    .Recipe9{
+        @include titleposition();
+    }  
+    .info9{
+        position:relative;
+        display: none;
+        margin-left: 360px;
+        font-family:$primary-text;    
+    }
+    .charlotte-royale-cake1{
+        @include imageposition();   
+    }
+    .savedC1{
+        font-weight: $fixedsize;
+        background-color: coral;
+        padding: 5px;
+        border: $secondary-color solid;
+        border-radius: 5px;
+        &:hover{
+            background-color: $secondary-color;
+            border: $primary-color solid;
+            color: whitesmoke;
+        }
+    }    
+    .ingrediants9{
+        @include ingrediants-layout();   
+    }
+    .charlotte-royale-cake2{
+        position:relative;
+        margin-left: 400px;
+    }
+    .savedC2{
+        font-weight: $fixedsize;
+        background-color: coral;
+        padding: 5px;
+        border: $secondary-color solid;
+        border-radius: 5px;
+        &:hover{
+            background-color: $secondary-color;
+            border: $primary-color solid;
+            color: whitesmoke;
+        }
+    }    
+    .instructions9{
+        @include instruction-layout();
+    }
+}
+hr{
+    @include border();
+}    
+.End-pg3{
+    color: black;
+    
+    hr{
+        @include border();
+    }
+    h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        color:$primary-color;
+        text-decoration: underline $secondary-color;
+        text-align: center;
+    }
+    .description{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        text-align: center;
+        font-size: $fixedsize;
+    }
+
+    .links{
+        color: $primary-color;
+        font-family: $primary-text;
+        text-decoration: none;
+        display: inline;
+        position: relative;
+        margin-left: 680px;
+        &:hover{
+            color: $secondary-color;
+        }    
+    }   
+
+}              
+}   

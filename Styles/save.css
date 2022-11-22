@@ -1,0 +1,143 @@
+body {
+  font-weight: bold;
+  background-color: whitesmoke;
+}
+body .backgroundimg {
+  position: static;
+  margin-bottom: -250px;
+}
+body .Header {
+  font-family: "Tahoma";
+  position: relative;
+  margin-top: -400;
+}
+body .Header .GoHome {
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+  font-size: 50px;
+  font-weight: bold;
+}
+body .Header .GoHome:hover {
+  color: coral;
+}
+body .Header .Contact {
+  position: absolute;
+  margin-left: 900px;
+  margin-top: -40px;
+  border-collapse: collapse;
+  background-color: coral;
+}
+body .Header .Contact .contactHead {
+  font-size: large;
+}
+body .Header .Contact .contactinfo {
+  list-style: none;
+  display: none;
+  margin-right: 400px;
+}
+body .Header .Head {
+  font-weight: bolder;
+  color: coral;
+  font-style: oblique;
+  font-size: 50px;
+  -webkit-text-decoration: underline brown;
+          text-decoration: underline brown;
+  position: relative;
+  margin-left: 30%;
+}
+body .Header .Head .Subhead {
+  font-style: italic;
+  margin-left: 7%;
+}
+body .Header .Sign-Up {
+  font-weight: bold;
+  background-color: coral;
+  border-radius: 5px;
+  position: absolute;
+  margin-left: -250px;
+  margin-top: -330px;
+}
+body .Main {
+  font-family: "Tahoma";
+}
+body .Main .savedimages {
+  position: relative;
+  margin-left: 400px;
+  text-decoration: none;
+}
+body .Main .savedimages {
+  list-style: none;
+}
+body .Main .savedimages .Img1 {
+  height: 600px;
+  width: 550px;
+}
+body .Main .savedimages .Img2 {
+  height: 600px;
+  width: 550px;
+}
+body .Main .savedimages .Img3 {
+  height: 600px;
+  width: 550px;
+}
+body .Main .savedimages .Img4 {
+  height: 600px;
+  width: 550px;
+}
+body .Main .savedimages .Img5 {
+  height: 600px;
+  width: 550px;
+}
+body .Main .savedimages .Img6 {
+  height: 600px;
+  width: 550px;
+}
+body .Main .savedimages .Img7 {
+  height: 600px;
+  width: 550px;
+}
+body .Main .savedimages .Img8 {
+  height: 600px;
+  width: 550px;
+}
+body .Main .savedimages .Img9 {
+  height: 600px;
+  width: 550px;
+}
+body .Main .savedimages .Img10 {
+  height: 600px;
+  width: 550px;
+}
+body .Main .savedimages .Img11 {
+  height: 600px;
+  width: 550px;
+}
+body .Main .savedimages .Img12 {
+  height: 600px;
+  width: 550px;
+}
+body .Main .savedimages .Img13 {
+  height: 600px;
+  width: 550px;
+}
+body .Main .savedimages .Img14 {
+  height: 600px;
+  width: 550px;
+}
+body .Main .savedimages .Img15 {
+  height: 600px;
+  width: 550px;
+}
+body .Main .savedimages .Img16 {
+  height: 600px;
+  width: 550px;
+}
+body .Main .savedimages .Img17 {
+  height: 600px;
+  width: 550px;
+}
+body .Main .savedimages .Img18 {
+  height: 600px;
+  width: 550px;
+}/*# sourceMappingURL=save.css.map */

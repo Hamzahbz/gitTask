@@ -1,0 +1,176 @@
+$primary-color:coral; // Will be used as the primary colour in my webages
+$secondary-color:brown;//Will be used alongside the primary colour
+$primary-text:'Tahoma';//Will be used as the primary font-style
+$fixedsize:bold;//will set all choosen text to bold
+
+@mixin createButton{//Will create a button which will be used throughtout the website
+    font-weight: $fixedsize;
+    background-color: coral;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -3%;
+}
+@mixin titleposition{//Will set the position of all image titles
+    text-decoration:underline;
+    font-style: italic;
+    position: relative;
+    font-size: 30px;
+    margin-left: 40%;
+}
+@mixin optionposition{
+    color:$primary-color;
+    text-decoration: underline $secondary-color;
+    font-size:40px;
+    position: relative;
+    margin-left: 40px;
+}
+
+body{
+    font-weight: $fixedsize;
+    background-color: whitesmoke;
+    .backgroundimg{
+        position:static;
+        margin-bottom: -250px;
+    }
+
+    .Header{
+        font-family: $primary-text;
+        position: relative;
+        margin-top:-400 ;
+        .GoHome{ 
+        background-color: whitesmoke;
+        color:black;
+        border:none;
+        font-size: 50px;
+        font-weight: $fixedsize;
+        &:hover{
+            color:$primary-color;
+    }          
+    }
+    .Contact{
+        position: absolute;
+        margin-left: 900px;
+        margin-top: -40px;
+        border-collapse: collapse;
+        background-color: $primary-color;
+
+        .contactHead{
+            font-size: large;
+        }
+        .contactinfo{
+            list-style: none;
+            display: none;
+            margin-right: 400px;
+        }
+    }
+    .Head{
+    
+        font-weight: bolder;
+        color:$primary-color;
+        font-style:oblique;
+        font-size: 50px;
+        text-decoration:underline $secondary-color;
+        position:relative;
+        margin-left: 30%;
+    .Subhead{ 
+        font-style: italic;
+        margin-left: 7%;  
+    }
+}
+    .Sign-Up{
+    font-weight: $fixedsize;
+    background-color: coral;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: -250px;
+    margin-top: -330px;
+
+    }
+}
+.Main{
+    font-family: $primary-text;
+
+    .savedimages{
+        position: relative;
+        margin-left: 400px;
+        text-decoration: none;
+    } 
+    .savedimages{
+      list-style: none;
+    .Img1{
+        height: 600px;
+        width:550px;
+    }
+    .Img2{
+        height: 600px;
+        width:550px;
+    } 
+    .Img3{
+        height: 600px;
+        width:550px;
+    } 
+    .Img4{
+        height: 600px;
+        width:550px;
+    } 
+    .Img5{
+        height: 600px;
+        width:550px;
+    } 
+    .Img6{
+        height: 600px;
+        width:550px;
+    } 
+    .Img7{
+        height: 600px;
+        width:550px;
+    } 
+    .Img8{
+        height: 600px;
+        width:550px;
+    } 
+    .Img9{
+        height: 600px;
+        width:550px;
+    } 
+    .Img10{
+        height: 600px;
+        width:550px;
+    } 
+    .Img11{
+        height: 600px;
+        width:550px;
+    } 
+    .Img12{
+        height: 600px;
+        width:550px;
+    } 
+    .Img13{
+        height: 600px;
+        width:550px;
+    } 
+    .Img14{
+        height: 600px;
+        width:550px;
+    } 
+    .Img15{
+        height: 600px;
+        width:550px;
+    } 
+    .Img16{
+        height: 600px;
+        width:550px;
+    } 
+    .Img17{
+        height: 600px;
+        width:550px;
+    } 
+    .Img18{
+        height: 600px;
+        width:550px;
+    } 
+ 
+} 
+}
+}

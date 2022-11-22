@@ -1,0 +1,330 @@
+$primary-color:coral; //Will be used as the primary colour in my webages
+$secondary-color:brown;//Will be used alongside the primary colour
+$primary-text:'Tahoma';//Will be used as the primary font-style
+$fixedsize:bold;//will set all choosen text to bold
+
+@mixin titleposition{//Will set the position of all image titles
+    color:$primary-color;
+    text-decoration:underline $secondary-color;
+    font-style: italic;
+    position: relative;
+    font-size: 30px;
+    margin-left: 40%;
+}
+@mixin optionposition{
+    color:$primary-color;
+    text-decoration: underline $secondary-color;
+    font-size:40px;
+    position: relative;
+    margin-left: 40px;
+}
+@mixin border{
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 12px;
+    background: grey;
+    margin-bottom: 20px;
+
+}  
+@mixin imageposition{
+    position:relative;
+    margin-left: 400px;
+    figcaption{
+        font-size:20px;
+    }
+}
+@mixin instruction-layout{
+    position: relative;
+    margin-left: 400px;
+    h2{
+        text-decoration: underline;
+    }
+}
+@mixin ingrediants-layout{
+    position:relative;
+    margin-left: 500px;
+    h3{
+        text-decoration: underline;
+        margin-left: 100px;
+    }
+}  
+
+
+body{//will set the background image for all content within both the header and main
+    font-weight: $fixedsize;
+.BacktoTop{
+    color: $primary-color;
+    font-family: $primary-text;
+    text-decoration: underline $secondary-color 2px;
+    &:hover{
+        color: $secondary-color;
+        text-decoration: underline $primary-color 2px;
+    }
+}
+.Sign-Up{
+    font-weight: $fixedsize;
+    background-color: coral;
+    padding: 5px;
+    border: $secondary-color solid;
+    border-radius: 5px;
+    position:absolute;
+    margin-left: 1200px;
+    margin-top: -350px;
+    &:hover{
+        background-color: $secondary-color;
+        border: $primary-color solid;
+        color: whitesmoke;
+    }
+}
+.saveBtn{
+    font-weight: $fixedsize;
+    background-color: coral;
+    padding: 5px;
+    border: $secondary-color solid;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 1280px;
+    margin-top: -350px;
+    &:hover{
+        background-color: $secondary-color;
+        border: $primary-color solid;
+        color: whitesmoke;
+    }
+}
+.Header-pg1{
+    background-color: whitesmoke;
+    font-family: $primary-text;
+    .GoHome{
+        background-color: whitesmoke;
+        color:black;
+        border:none;
+        font-size: 50px;
+        font-weight: $fixedsize;
+        &:hover{
+            color:$primary-color;
+        }
+    .background2{
+        position: relative;
+        margin-bottom: -500px;
+    }        
+    }
+    .Head{
+        font-weight: bolder;
+        color:$primary-color;
+        font-style:oblique;
+        font-size: 50px;
+        text-decoration:underline $secondary-color;
+        position:absolute;
+        margin-left: 35%;
+        margin-top: -250px;
+    .Subhead{ 
+        margin-left: -2%;
+    }
+ }
+    .Page1{
+    position: relative;
+    margin-left: 35px;
+    text-decoration: underline;
+    }
+}
+
+.Main-pg1{
+    background-color: whitesmoke;
+   font-family: $primary-text;
+    .Recipe1{
+    @include titleposition();
+   }
+   .info1{
+    position:relative;
+    display: none;
+    margin-left: 100px;
+    font-family:$primary-text;
+   }
+   .custardcreams1{
+    @include imageposition();
+   }
+.savedA1{
+    font-weight: $fixedsize;
+    background-color: coral;
+    padding: 5px;
+    border: $secondary-color solid;
+    border-radius: 5px;
+    &:hover{
+        background-color: $secondary-color;
+        border: $primary-color solid;
+        color: whitesmoke;
+    }
+
+}
+
+   .ingrediants1{
+    @include ingrediants-layout();
+   }
+   .custardcreams2{
+    position: relative;
+    margin-left: 400px;
+   }
+   .savedA2{
+    font-weight: $fixedsize;
+    background-color: coral;
+    padding: 5px;
+    border: $secondary-color solid;
+    border-radius: 5px;
+    &:hover{
+        background-color: $secondary-color;
+        border: $primary-color solid;
+        color: whitesmoke;
+    }
+
+}
+
+   .instructions1{
+    @include instruction-layout();
+   }
+hr{
+    @include border();
+}
+
+    .Recipe2{
+        @include titleposition();
+    }  
+    .info2{
+        position:relative;
+        display: none;
+        margin-left: 360px;
+        font-family:$primary-text;    
+    }
+    .Nutella-Hand-Pies{
+        @include imageposition();   
+    }
+    .savedB1{
+        font-weight: $fixedsize;
+        background-color: coral;
+        padding: 5px;
+        border: $secondary-color solid;
+        border-radius: 5px;
+        &:hover{
+            background-color: $secondary-color;
+            border: $primary-color solid;
+            color: whitesmoke;
+        }
+    
+    }
+    
+    .ingrediants2{
+        @include ingrediants-layout();   
+    }
+    .Nutella-Hand-Pies2{
+        position:relative;
+        margin-left: 400px;
+    }
+    .savedB2{
+        font-weight: $fixedsize;
+        background-color: coral;
+        padding: 5px;
+        border: $secondary-color solid;
+        border-radius: 5px;
+        &:hover{
+            background-color: $secondary-color;
+            border: $primary-color solid;
+            color: whitesmoke;
+        }
+    
+    }
+    
+    .instructions2{
+        @include instruction-layout();
+    }
+hr{
+    @include border();
+} 
+    .Recipe3{
+        @include titleposition();
+    }
+    .info3{
+        position: relative;
+        display: none;
+        margin-left:300px;
+        font-family: $primary-text;
+    }
+    .Krispy-Date-Slices{
+        @include imageposition();
+    }
+    .savedC1{
+        font-weight: $fixedsize;
+        background-color: coral;
+        padding: 5px;
+        border: $secondary-color solid;
+        border-radius: 5px;
+        &:hover{
+            background-color: $secondary-color;
+            border: $primary-color solid;
+            color: whitesmoke;
+        }    
+    }    
+    .ingrediants3{
+        @include ingrediants-layout();
+    }
+    .Krispy-Date-Slices2{
+        position: relative;
+        margin-left: 400px;
+    }
+    .savedC2{
+        font-weight: $fixedsize;
+        background-color: coral;
+        padding: 5px;
+        border: $secondary-color solid;
+        border-radius: 5px;
+        &:hover{
+            background-color: $secondary-color;
+            border: $primary-color solid;
+            color: whitesmoke;
+        }
+    
+    }
+    
+    .instructions3{
+        @include instruction-layout();
+        margin-left: -7px;
+    }
+}
+
+hr{
+    @include border();
+}
+.End-pg1{
+    color: black;
+
+    hr{
+        @include border();
+    }
+    h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        color:$primary-color;
+        text-decoration: underline $secondary-color;
+        text-align: center;
+    }
+    .description{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        text-align: center;
+        font-size: $fixedsize;
+    }
+
+    .links{
+        color: $primary-color;
+        font-family: $primary-text;
+        text-decoration: none;
+        display: inline;
+        position: relative;
+        margin-left: 680px;
+        &:hover{
+            color: $secondary-color;
+        }
+    }
+}   
+
+}
+

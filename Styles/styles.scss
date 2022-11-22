@@ -1,0 +1,314 @@
+$primary-color:coral;//Will be used as the primary colour in my webages
+$secondary-color:brown;//Will be used alongside the primary colour
+$primary-text:'Tahoma';//Will be used as the primary font-style
+$fixedsize:bold;//will set all choosen text to bold
+
+@mixin createButton{//Will create a button which will be used throughtout the website
+    font-weight: $fixedsize;
+    background-color: coral;
+    border-radius: 5px;
+    position: relative;
+}
+@mixin titleposition{//Will set the position of all image titles
+    text-decoration:underline;
+    font-style: italic;
+    position: relative;
+    font-size: 30px;
+    margin-left: 40%;
+}
+@mixin optionposition{
+    color:$primary-color;
+    text-decoration: underline $secondary-color;
+    font-size:40px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.Body{//will set the background image for all content within both the header and main
+    font-weight: $fixedsize;
+    background-color: whitesmoke;
+
+    .BacktoTop{
+        color: $primary-color;
+        font-family: $primary-text;
+        text-decoration: underline $secondary-color 2px;
+        &:hover{
+            color: $secondary-color;
+            text-decoration: underline $primary-color 2px;
+        }
+    }
+    .Sign-Up{
+        font-weight: $fixedsize;
+        background-color: coral;
+        padding: 5px;
+        border: $secondary-color solid;
+        border-radius: 5px;
+        position:absolute;
+        margin-left: 1200px;
+        margin-top: -350px;
+        &:hover{
+            background-color: $secondary-color;
+            border: $primary-color solid;
+            color: whitesmoke;
+        }
+    }
+    .saveBtn{
+        font-weight: $fixedsize;
+        background-color: coral;
+        padding: 5px;
+        border: $secondary-color solid;
+        border-radius: 5px;
+        position: absolute;
+        margin-left: 1280px;
+        margin-top: -350px;
+        &:hover{
+            background-color: $secondary-color;
+            border: $primary-color solid;
+            color: whitesmoke;
+        }
+    }
+.Header{
+    font-family: $primary-text;
+
+    .home{   
+    font-size: 50px;
+    font-weight: $fixedsize;
+}
+.background1{
+    position: relative;
+    margin-bottom: -250px;
+}
+.Head{
+
+    font-weight: bolder;
+    color:$primary-color;
+    font-style:oblique;
+    font-size: 50px;
+    text-decoration:underline $secondary-color;
+    position:relative;
+    margin-left: 30%;
+.Subhead{ 
+    font-style: italic;
+    margin-left: 7%;  
+}
+.SignUp{
+    background-color: $primary-color;
+}
+}
+.Subtext{
+    color:$primary-color;
+    position: relative;
+    margin-left: 27%;
+    font-size: large;
+}
+.HeadA{
+    color:$primary-color;
+    text-decoration: underline $secondary-color;
+}
+}
+}
+.Main{  
+    .begin{
+        color:$primary-color;
+        position: relative;
+        font-size:40px;
+        margin-left: 600px;
+        text-decoration: underline $secondary-color;
+    }
+.option1{
+    @include optionposition();
+
+    }
+    .imageTitle1{
+        @include titleposition();
+    }
+    .image1{
+        position: relative;
+        margin-left: 400px;
+
+        figcaption{
+            font-size: 20px;
+        }
+    }
+    .link1{
+        @include createButton();
+        &:hover{
+            background-color: $secondary-color;
+            border: $primary-color solid;
+            color: whitesmoke;
+        }
+        .likebtn1{
+            background: transparent;
+            border: none;
+            font-size: 88px;
+            outline: none;
+            color: grey;        
+        }    
+    }
+    .imageTitle2{
+        @include titleposition(); 
+    }
+    .image2{
+        position: relative;
+        margin-left: 400px;
+        
+        figcaption{
+            font-size: 20px;
+        }
+    }
+    .link2{
+        @include createButton();
+        &:hover{
+            background-color: $secondary-color;
+            border: $primary-color solid;
+            color: whitesmoke;
+        }    
+    }
+    .imageTitle3{
+        @include titleposition();
+    }
+    .image3{
+        position: relative;
+        margin-left: 400px;
+
+        figcaption{
+            font-size: 20px;
+        }
+    }
+    .link3{
+        @include createButton();
+        &:hover{
+            background-color: $secondary-color;
+            border: $primary-color solid;
+            color: whitesmoke;
+        }    
+    }
+.option2{
+    @include optionposition();
+
+}
+.imageTitle4{
+    @include titleposition();
+    &:hover{
+        background-color: $secondary-color;
+        border: $primary-color solid;
+        color: whitesmoke;
+    }
+}
+.image4{
+    position: relative;
+    margin-left: 400px;
+
+    figcaption{
+        font-size: 20px;
+    }
+}
+.link4{
+    @include createButton();
+    &:hover{
+        background-color: $secondary-color;
+        border: $primary-color solid;
+        color: whitesmoke;
+    }
+}
+.imageTitle5{
+    @include titleposition();
+}
+.image5{
+    position: relative;
+    margin-left: 400px;
+
+    figcaption{
+        font-size: 20px;
+    }
+}
+.link5{
+    @include createButton();
+    &:hover{
+        background-color: $secondary-color;
+        border: $primary-color solid;
+        color: whitesmoke;
+    }
+
+}
+.imageTitle6{
+    @include titleposition();
+}
+.image6{
+    position: relative;
+    margin-left: 400px;
+
+    figcaption{
+        font-size: 20px;
+    }
+}
+.link6{
+    @include createButton();
+    &:hover{
+        background-color: $secondary-color;
+        border: $primary-color solid;
+        color: whitesmoke;
+    }
+}
+.option3{
+    @include optionposition();
+}
+.imageTitle7{
+    @include titleposition();
+}
+.image7{
+    position: relative;
+    margin-left: 400px;
+
+    figcaption{
+        font-size: 20px;
+    }
+}
+.link7{
+    @include createButton();
+    &:hover{
+        background-color: $secondary-color;
+        border: $primary-color solid;
+        color: whitesmoke;
+    }
+}
+
+.imageTitle8{
+    @include titleposition();
+}
+.image8{
+    position: relative;
+    margin-left: 400px;
+
+    figcaption{
+        font-size: 20px;
+    }
+}
+.link8{
+    @include createButton();
+    &:hover{
+        background-color: $secondary-color;
+        border: $primary-color solid;
+        color: whitesmoke;
+    }
+}
+.imageTitle9{
+    @include titleposition();
+}
+.image9{
+    position: relative;
+    margin-left: 400px;
+
+    figcaption{
+        font-size: 20px;
+    }
+}
+.link9{
+    @include createButton();
+    &:hover{
+        background-color: $secondary-color;
+        border: $primary-color solid;
+        color: whitesmoke;
+    }
+}
+}

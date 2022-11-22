@@ -1,0 +1,130 @@
+body {
+  background-color: whitesmoke;
+  font-family: "Tahoma";
+  font-weight: bold;
+}
+body .Header-pg4 .GoHome {
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+  font-size: 50px;
+  font-weight: bold;
+}
+body .Header-pg4 .GoHome:hover {
+  color: coral;
+}
+body .Header-pg4 .GoHome .background5 {
+  position: relative;
+  margin-bottom: -500px;
+}
+body .Header-pg4 .Contact {
+  position: absolute;
+  border: solid;
+  border-radius: 2px;
+}
+body .Header-pg4 .Contact .contactHead {
+  position: relative;
+  margin-left: 100px;
+  border: solid;
+  padding-right: 30px;
+}
+body .Header-pg4 .Head {
+  font-weight: bolder;
+  color: brown;
+  font-style: oblique;
+  font-size: 50px;
+  -webkit-text-decoration: underline coral;
+          text-decoration: underline coral;
+  position: relative;
+  margin-left: 35%;
+  margin-top: -350px;
+}
+body .Header-pg4 .Head .Subhead {
+  margin-left: -2%;
+}
+body .formintro {
+  position: relative;
+  margin-left: 200px;
+}
+body hr {
+  position: relative;
+  top: 20px;
+  border: none;
+  height: 12px;
+  background: grey;
+  margin-bottom: 20px;
+}
+body .Main-pg4 h2 {
+  position: absolute;
+  margin-left: 650px;
+  color: coral;
+  -webkit-text-decoration: underline brown;
+          text-decoration: underline brown;
+}
+body .Main-pg4 .Form {
+  position: relative;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 7px;
+  margin: 50px 300px;
+  padding-bottom: 200px;
+  padding-top: 100px;
+}
+body .Main-pg4 .Form .firstname {
+  position: relative;
+  margin-left: 180px;
+}
+body .Main-pg4 .Form .lastname {
+  position: absolute;
+  margin-left: 480px;
+  margin-top: -20px;
+}
+body .Main-pg4 .Form .bday {
+  position: relative;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+body .Main-pg4 .Form .gender {
+  position: absolute;
+  margin-left: 300px;
+}
+body .Main-pg4 .Form .email {
+  position: relative;
+  margin-left: 300px;
+  margin-top: 60px;
+}
+body .Main-pg4 .Form .password {
+  position: relative;
+  margin-left: 340px;
+  margin-top: 30px;
+}
+body .Main-pg4 .submit {
+  position: absolute;
+  margin-left: 680px;
+  margin-top: -230px;
+  border: none;
+  border-radius: 5px;
+  background-color: coral;
+  font-weight: bold;
+  font-size: 17px;
+}
+body .Main-pg4 .submit:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}
+body .Main-pg4 .reset {
+  position: absolute;
+  margin-left: 760px;
+  margin-top: -230px;
+  border: none;
+  border-radius: 5px;
+  background-color: coral;
+  font-weight: bold;
+  font-size: 17px;
+}
+body .Main-pg4 .reset:hover {
+  background-color: brown;
+  border: coral solid;
+  color: whitesmoke;
+}/*# sourceMappingURL=sign-up.css.map */
